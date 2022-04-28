@@ -1,9 +1,8 @@
 {
+  "private": true,
   "name": "vinsea-toolkit-monorepo",
-  "version": "0.1.0",
   "license": "MIT",
   "description": "my niubility toolkit",
-  "private": true,
   "scripts": {
     "packages:bootstrap": "lerna bootstrap --hoist",
     "packages:changed": "lerna changed",

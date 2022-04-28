@@ -1,6 +1,6 @@
 {
   "name": "@vinsea/eslint-plugin-custom",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "my custom eslint plugin",
   "keywords": [
     "vinsea",
