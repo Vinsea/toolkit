@@ -1,0 +1,29 @@
+{
+  "name": "vinsea-toolkit-monorepo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "my niubility toolkit",
+  "private": true,
+  "scripts": {
+    "packages:bootstrap": "lerna bootstrap --hoist",
+    "packages:changed": "lerna changed",
+    "packages:list": "lerna ls --long --all",
+    "packages:publish": "lerna publish",
+    "packages:publish-log": "lerna publish patch --conventional-commits",
+    "lint": "eslint packages --fix",
+    "test": "lerna run test",
+    "clean": "lerna clean && rm -rf node_modules",
+    "precommit": "npm run lint"
+  },
+  "keywords": [
+    "vinsea",
+    "toolkit",
+    "utils"
+  ],
+  "author": "Vinsea",
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "lerna": "^4.0.0",
+    "@vinsea/eslint-plugin-custom": "file:./packages/eslint-custom"
+  }
+}

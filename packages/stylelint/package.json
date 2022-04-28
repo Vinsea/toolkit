@@ -1,0 +1,32 @@
+{
+    "name": "@vinsea/stylelint-config-rules",
+    "version": "1.0.1",
+    "description": "my stylelint config",
+    "keywords": [
+        "vinsea",
+        "stylelint"
+    ],
+    "author": "Vinsea",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vinsea/toolkit.git",
+        "directory": "packages/stylelint"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"stylelint Error: no test specified!!!\" && exit 0"
+    },
+    "devDependencies": {
+        "stylelint": "^13.5.0"
+    },
+    "peerDependencies": {
+        "stylelint": "^13.5.0"
+    },
+    "dependencies": {
+        "stylelint-order": "^4.0.0"
+    },
+    "gitHead": "9b79e8e0032c4d703857aaa01520f642721c94e3"
+}

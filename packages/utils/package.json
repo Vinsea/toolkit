@@ -1,0 +1,40 @@
+{
+  "name": "@vinsea/utils",
+  "version": "1.0.1",
+  "description": "My common utils",
+  "keywords": [
+    "vinsea",
+    "utils"
+  ],
+  "author": "Vinsea",
+  "homepage": "",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinsea/toolkit.git",
+    "directory": "packages/utils"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "mocha": "^9.2.2",
+    "multi-progress": "^4.0.0",
+    "ora": "5.4.1",
+    "progress": "^2.0.3",
+    "readline": "^1.3.0"
+  },
+  "gitHead": "9b79e8e0032c4d703857aaa01520f642721c94e3"
+}

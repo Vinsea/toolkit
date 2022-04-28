@@ -1,0 +1,35 @@
+{
+  "name": "@vinsea/postcss",
+  "version": "1.0.1",
+  "description": "my PostCSS plugin",
+  "keywords": [
+    "vinsea",
+    "postcss",
+    "namespace"
+  ],
+  "author": "Vinsea",
+  "license": "MIT",
+  "directories": {
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinsea/toolkit.git",
+    "directory": "packages/postcss"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.8"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "postcss": "^8.2.8"
+  },
+  "gitHead": "9b79e8e0032c4d703857aaa01520f642721c94e3"
+}
