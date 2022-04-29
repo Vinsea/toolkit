@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "vinsea-toolkit-monorepo",
-  "license": "MIT",
   "description": "my niubility toolkit",
+  "author": "Vinsea",
   "scripts": {
     "packages:bootstrap": "lerna bootstrap --hoist",
     "packages:changed": "lerna changed",
@@ -19,7 +19,6 @@
     "toolkit",
     "utils"
   ],
-  "author": "Vinsea",
   "devDependencies": {
     "eslint": "8.14.0",
     "lerna": "^4.0.0",

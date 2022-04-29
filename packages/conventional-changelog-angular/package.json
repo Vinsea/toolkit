@@ -1,0 +1,44 @@
+{
+  "name": "@vinsea/conventional-changelog-angular",
+  "version": "1.0.1",
+  "description": "conventional-changelog angular preset with custom config",
+  "author": "Vinsea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinsea/toolkit.git",
+    "directory": "packages/conventional-changelog-angular"
+  },
+  "bugs": {
+    "url": "https://github.com/Vinsea/toolkit/issues"
+  },
+  "homepage": "https://github.com/Vinsea/toolkit/blob/main/packages/conventional-changelog-angular/README.md",
+  "keywords": [
+    "conventional-changelog",
+    "angular",
+    "preset",
+    "vinsea"
+  ],
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "compare-func": "^2.0.0",
+    "q": "^1.5.1"
+  }
+}
