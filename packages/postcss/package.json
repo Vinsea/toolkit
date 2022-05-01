@@ -2,23 +2,27 @@
   "name": "@vinsea/postcss",
   "version": "1.0.2",
   "description": "my PostCSS plugin",
+  "author": "Vinsea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinsea/toolkit.git",
+    "directory": "packages/postcss"
+  },
+  "bugs": {
+    "url": "https://github.com/Vinsea/toolkit/issues"
+  },
+  "homepage": "https://github.com/Vinsea/toolkit/blob/main/packages/postcss/README.md",
+  "directories": {
+    "test": "__tests__"
+  },
   "keywords": [
     "vinsea",
     "postcss",
     "namespace"
   ],
-  "author": "Vinsea",
   "license": "MIT",
-  "directories": {
-    "test": "__tests__"
-  },
   "publishConfig": {
     "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vinsea/toolkit.git",
-    "directory": "packages/postcss"
   },
   "main": "index.js",
   "scripts": {

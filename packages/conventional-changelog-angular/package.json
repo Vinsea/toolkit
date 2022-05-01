@@ -15,8 +15,7 @@
   "keywords": [
     "conventional-changelog",
     "angular",
-    "preset",
-    "vinsea"
+    "preset"
   ],
   "files": [
     "conventional-changelog.js",
@@ -26,6 +25,7 @@
     "writer-opts.js",
     "templates"
   ],
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
@@ -36,7 +36,6 @@
   "engines": {
     "node": ">=10"
   },
-  "license": "MIT",
   "dependencies": {
     "compare-func": "^2.0.0",
     "q": "^1.5.1"

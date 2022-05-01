@@ -2,15 +2,23 @@
     "name": "@vinsea/eslint-config-rules",
     "version": "1.0.2",
     "description": "my eslint config",
-    "keywords": [
-        "eslint"
-    ],
+    "author": "Vinsea",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Vinsea/toolkit.git",
         "directory": "packages/esilnt"
     },
-    "author": "Vinsea",
+    "bugs": {
+        "url": "https://github.com/Vinsea/toolkit/issues"
+    },
+    "homepage": "https://github.com/Vinsea/toolkit/blob/main/packages/eslint/README.md",
+    "keywords": [
+        "eslint"
+    ],
+    "files": [
+        "rules"
+    ],
+    "license": "MIT",
     "publishConfig": {
         "access": "public"
     },
@@ -20,6 +28,5 @@
     },
     "dependencies": {
         "@vinsea/eslint-plugin-custom": "^1.0.1"
-    },
-    "gitHead": "9b79e8e0032c4d703857aaa01520f642721c94e3"
+    }
 }

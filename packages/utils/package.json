@@ -2,27 +2,26 @@
   "name": "@vinsea/utils",
   "version": "1.0.2",
   "description": "My common utils",
-  "keywords": [
-    "vinsea",
-    "utils"
-  ],
   "author": "Vinsea",
-  "homepage": "",
-  "license": "MIT",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "cli"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vinsea/toolkit.git",
     "directory": "packages/utils"
+  },
+  "bugs": {
+    "url": "https://github.com/Vinsea/toolkit/issues"
+  },
+  "homepage": "https://github.com/Vinsea/toolkit/blob/main/packages/utils/README.md",
+  "keywords": [
+    "vinsea",
+    "utils"
+  ],
+  "files": [
+    "cli"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
   },
   "main": "index.js",
   "scripts": {
@@ -35,6 +34,5 @@
     "ora": "5.4.1",
     "progress": "^2.0.3",
     "readline": "^1.3.0"
-  },
-  "gitHead": "9b79e8e0032c4d703857aaa01520f642721c94e3"
+  }
 }

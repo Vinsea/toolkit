@@ -2,18 +2,23 @@
     "name": "@vinsea/stylelint-config-rules",
     "version": "1.0.2",
     "description": "my stylelint config",
-    "keywords": [
-        "vinsea",
-        "stylelint"
-    ],
     "author": "Vinsea",
-    "publishConfig": {
-        "access": "public"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Vinsea/toolkit.git",
         "directory": "packages/stylelint"
+    },
+    "bugs": {
+        "url": "https://github.com/Vinsea/toolkit/issues"
+    },
+    "homepage": "https://github.com/Vinsea/toolkit/blob/main/packages/stylelint/README.md",
+    "keywords": [
+        "vinsea",
+        "stylelint"
+    ],
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
     },
     "main": "index.js",
     "scripts": {
@@ -27,6 +32,5 @@
     },
     "dependencies": {
         "stylelint-order": "^4.0.0"
-    },
-    "gitHead": "9b79e8e0032c4d703857aaa01520f642721c94e3"
+    }
 }
