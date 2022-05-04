@@ -20,8 +20,8 @@
     "utils"
   ],
   "devDependencies": {
+    "@vinsea/eslint-plugin-custom": "file:./packages/eslint-custom",
     "eslint": "8.14.0",
-    "lerna": "^4.0.0",
-    "@vinsea/eslint-plugin-custom": "file:./packages/eslint-custom"
+    "lerna": "^4.0.0"
   }
 }

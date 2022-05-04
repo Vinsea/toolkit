@@ -18,7 +18,7 @@ module.exports = {
             description: '对象属性冒号前后空格校验',
             category: 'Stylistic Issues',
             recommended: true,
-            url: 'http://192.168.1.202:1001/cloudplatform/frontend-lint/src/branch/master/packages/eslint-custom/docs/rules/object-colon-spacing.md'
+            url: 'https://github.com/Vinsea/toolkit/blob/main/packages/eslint-custom/docs/rules/object-colon-spacing.md'
         },
         fixable: 'whitespace',
         messages: {

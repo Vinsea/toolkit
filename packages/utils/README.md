@@ -5,7 +5,6 @@
 ## Usage
 
 ```
-const utils = require('utils');
-
+npm i @vinsea/utils -D 
 // TODO: DEMONSTRATE API
 ```
