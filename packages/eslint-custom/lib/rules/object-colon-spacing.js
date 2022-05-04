@@ -15,16 +15,16 @@ module.exports = {
     meta: {
         type: 'layout',
         docs: {
-            description: '对象属性冒号前后空格校验',
+            description: '对象属性冒号前后空格校验|Space check before and after the colon of object properties',
             category: 'Stylistic Issues',
             recommended: true,
             url: 'https://github.com/Vinsea/toolkit/blob/main/packages/eslint-custom/docs/rules/object-colon-spacing.md'
         },
         fixable: 'whitespace',
         messages: {
-            expectedSpaceAfter: '冒号后应该有一个空格',
-            expectedOneSpaceAfter: '冒号后面应该只能有一个空格',
-            unexpectedSpaceBefore: '冒号前面不能有空格'
+            expectedSpaceAfter: '冒号后应该有一个空格|A space is required after the colon',
+            expectedOneSpaceAfter: '冒号后面应该只能有一个空格|There should only be one space after the colon',
+            unexpectedSpaceBefore: '冒号前面不能有空格|There must be no space before the colon'
         }
     },
 

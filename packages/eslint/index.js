@@ -6,6 +6,7 @@ module.exports = {
         require.resolve('./rules/custom')
     ],
     globals: {
+        // /packages/utils/index.js
         _Vtk: true
     },
     parserOptions: {
