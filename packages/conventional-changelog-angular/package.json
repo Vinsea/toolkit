@@ -1,6 +1,6 @@
 {
   "name": "@vinsea/conventional-changelog-angular",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "conventional-changelog angular preset with custom config",
   "author": "Vinsea",
   "repository": {

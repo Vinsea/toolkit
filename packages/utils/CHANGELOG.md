@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/Vinsea/toolkit/compare/v1.0.2...v1.0.3) (2022-05-04)
+
+
+### Bug Fixes
+
+* fix dependencies and add previews of spinner animate ([c27985b](https://github.com/Vinsea/toolkit/commit/c27985b4c7e1f8163190b5608983336ea1e2931d))
+
+
+
+
+
 # 1.0.0 (2022-04-28)
 
 
