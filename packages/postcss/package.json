@@ -1,6 +1,6 @@
 {
   "name": "@vinsea/postcss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "my PostCSS plugin",
   "author": "Vinsea",
   "repository": {

@@ -1,6 +1,6 @@
 {
     "name": "@vinsea/eslint-config-rules",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "my eslint config",
     "author": "Vinsea",
     "repository": {
@@ -27,6 +27,6 @@
         "test": "echo \"eslint Error: no test specified\" && exit 0"
     },
     "dependencies": {
-        "@vinsea/eslint-plugin-custom": "^1.0.3"
+        "@vinsea/eslint-plugin-custom": "^1.0.4"
     }
 }

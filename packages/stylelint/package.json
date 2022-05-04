@@ -1,6 +1,6 @@
 {
     "name": "@vinsea/stylelint-config-rules",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "my stylelint config",
     "author": "Vinsea",
     "repository": {
