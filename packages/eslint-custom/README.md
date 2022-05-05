@@ -27,7 +27,8 @@ module.exports = {
 
 ## Supported Rules
 
-1. 冒号后面需要加一个空格
+1. 冒号后面需要加一个空格; A space is required after the colon;
+1. todo
 
 
 

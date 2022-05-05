@@ -2,6 +2,8 @@
 
 个人常用的一套比较严格的规则，可以直接用于实际项目中
 
+A set of relatively strict rules commonly used by individuals, which can be directly used in actual projects
+
 ## 使用
 
 ### 安装
