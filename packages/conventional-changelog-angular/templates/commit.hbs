@@ -23,15 +23,15 @@
   {{~else}}
     {{~@root.repoUrl}}
   {{~/if}}/{{authorName}}?tab=activity) - 
-{{~else}}
+   {{~else}}
   {{~shortHash}}
-{{~/if}}
-{{#if scope}} **{{scope}}:**
-{{~/if}} {{#if subject}}
+   {{~/if}}
+   {{#if scope}} **{{scope}}:**
+   {{~/if}} {{#if subject}}
   {{~subject}}
-{{~else}}
+   {{~else}}
   {{~header}}
-{{~/if}}
+   {{~/if}}
 
 {{~!-- commit references --}}
 {{~#if references~}}

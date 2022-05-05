@@ -5,7 +5,10 @@ const parserOptsQ = require('./parser-opts');
 const recommendedBumpOptsQ = require('./conventional-recommended-bump');
 const writerOptsQ = require('./writer-opts');
 const gitRawCommitsOptsQ = require('./git-raw-commit');
-const context = { commit: 'commit' };
+
+const context = {
+    commit: 'commit'
+};
 
 module.exports = Q.all([
     conventionalChangelogQ, parserOptsQ, recommendedBumpOptsQ, writerOptsQ, gitRawCommitsOptsQ

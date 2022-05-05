@@ -3,6 +3,7 @@
   "name": "vinsea-toolkit-monorepo",
   "description": "my niubility toolkit",
   "author": "Vinsea",
+  "location": "C://workspace//vv//toolkit",
   "scripts": {
     "packages:bootstrap": "lerna bootstrap --hoist",
     "packages:changed": "lerna changed",
@@ -21,6 +22,7 @@
   ],
   "devDependencies": {
     "@vinsea/eslint-plugin-custom": "file:./packages/eslint-custom",
+    "@vinsea/conventional-changelog-angular": "file:./packages/conventional-changelog-angular",
     "eslint": "8.14.0",
     "lerna": "^4.0.0"
   }

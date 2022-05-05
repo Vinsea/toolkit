@@ -4,6 +4,11 @@
 
 this preset is an clone of [conventional-changelog-angular](https://www.npmjs.com/package/conventional-changelog-angular), with some modifications & additions.
 
+## examples
+[CHANGELOG.md](../../CHANGELOG.md)
+
+![CHANGELOG.md](./example.jpg)
+
 ## Usage
 ```
 npm i @vinsea/conventional-changelog-angular -D

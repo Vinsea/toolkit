@@ -20,6 +20,7 @@ const TYPE_TEXT = {
 function getWriterOpts() {
     return {
         transform: (commit, context) => {
+            // console.log(commit);
             // let discard = true;
             const issues = [];
 
