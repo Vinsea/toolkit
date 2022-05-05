@@ -7,8 +7,7 @@
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i 
-
+$ npm i eslint -D
 ```
 
 ## Usage
