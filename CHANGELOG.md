@@ -3,20 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-#  (2022-05-05)
-
-
-### ✨ 新功能
-
-* 2022-05-05丨[870b047](https://github.com/Vinsea/toolkit/commit/870b047cd4f1079d1cbd9ca7689b8742bcf54f33) - [@Vinsea](https://github.com/Vinsea/toolkit/Vinsea?tab=activity) -    **conventional-changelog-angular:** complete custom changelog
-
-
-### 🐛 Bug 修复
-
-* 2022-05-05丨[3391711](https://github.com/Vinsea/toolkit/commit/339171139afc759106c9fce7bbbb8b29ab1a947a) - [@Vinsea](https://github.com/Vinsea/toolkit/Vinsea?tab=activity) -    **conventional-changelog-angular:** modify commit template
-
-
-
 ## 1.0.4 (2022-05-04)
 
 
