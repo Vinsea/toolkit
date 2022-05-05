@@ -1,9 +1,14 @@
 
 const Q = require('q');
-const conventionalChangelog = require('./conventional-changelog');
-const parserOpts = require('./parser-opts');
-const recommendedBumpOpts = require('./conventional-recommended-bump');
-const writerOpts = require('./writer-opts');
+const conventionalChangelogQ = require('./conventional-changelog');
+const parserOptsQ = require('./parser-opts');
+const recommendedBumpOptsQ = require('./conventional-recommended-bump');
+const writerOptsQ = require('./writer-opts');
+const gitRawCommitsOptsQ = require('./git-raw-commit');
+const context = { commit: 'commit' };
 
-module.exports = Q.all([conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts])
-    .spread((conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts) => ({ conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts }));
+module.exports = Q.all([
+    conventionalChangelogQ, parserOptsQ, recommendedBumpOptsQ, writerOptsQ, gitRawCommitsOptsQ
+]).spread((conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts, gitRawCommitsOpts) => ({
+    context, conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts, gitRawCommitsOpts
+}));

@@ -8,7 +8,7 @@
     "packages:changed": "lerna changed",
     "packages:list": "lerna ls --long --all",
     "packages:publish": "lerna publish",
-    "packages:publish-log": "lerna publish patch --conventional-commits",
+    "packages:publish-log": "lerna publish --conventional-commits",
     "lint": "eslint packages --fix",
     "test": "lerna run test",
     "clean": "lerna clean && rm -rf node_modules",

@@ -5,44 +5,35 @@ const Q = require('q');
 const readFile = Q.denodeify(require('fs').readFile);
 const resolve = require('path').resolve;
 
+const TYPE_TEXT = {
+    'feat': '✨ 新功能',
+    'fix': '🐛 Bug 修复',
+    'style': '💄 样式修改',
+    'perf': '⚡ 性能优化',
+    'build': '🔧 打包',
+    'refactor': '♻ 代码重构'
+};
+
 /**
  * @returns {object} WriterOpts
  */
 function getWriterOpts() {
     return {
-        // eslint-disable-next-line complexity
         transform: (commit, context) => {
-            let discard = true;
+            // let discard = true;
             const issues = [];
 
             commit.notes.forEach(note => {
-                note.title = 'BREAKING CHANGES';
-                discard = false;
+                note.title = '**重大更新**';
+                // discard = false;
             });
 
-            if (commit.type === 'feat') {
-                commit.type = 'Features';
-            } else if (commit.type === 'fix') {
-                commit.type = 'Bug Fixes';
-            } else if (commit.type === 'perf') {
-                commit.type = 'Performance Improvements';
-            } else if (commit.type === 'revert' || commit.revert) {
-                commit.type = 'Reverts';
-            } else if (discard) {
+            const typeText = TYPE_TEXT[commit.type];
+            if (!typeText) {
                 return;
-            } else if (commit.type === 'docs') {
-                commit.type = 'Documentation';
-            } else if (commit.type === 'style') {
-                commit.type = 'Styles';
-            } else if (commit.type === 'refactor') {
-                commit.type = 'Code Refactoring';
-            } else if (commit.type === 'test') {
-                commit.type = 'Tests';
-            } else if (commit.type === 'build') {
-                commit.type = 'Build System';
-            } else if (commit.type === 'ci') {
-                commit.type = 'Continuous Integration';
             }
+
+            commit.type = typeText;
 
             if (commit.scope === '*') {
                 commit.scope = '';

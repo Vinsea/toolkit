@@ -1,8 +1,11 @@
 
 
 const Q = require('q');
-const parserOpts = require('./parser-opts');
-const writerOpts = require('./writer-opts');
+const parserOptsQ = require('./parser-opts');
+const writerOptsQ = require('./writer-opts');
 
-module.exports = Q.all([parserOpts, writerOpts])
-    .spread((parserOpts, writerOpts) => ({ parserOpts, writerOpts }));
+module.exports = Q.all([
+    parserOptsQ, writerOptsQ
+]).spread((parserOpts, writerOpts) => ({
+    parserOpts, writerOpts
+}));

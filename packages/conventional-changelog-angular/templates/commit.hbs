@@ -1,4 +1,4 @@
-*{{#if scope}} **{{scope}}:**
+* {{committerDate}}丨{{#if scope}} **{{scope}}:**
 {{~/if}} {{#if subject}}
   {{~subject}}
 {{~else}}
@@ -6,7 +6,7 @@
 {{~/if}}
 
 {{~!-- commit link --}} {{#if @root.linkReferences~}}
-  ([{{shortHash}}](
+  ({{[@${commit.authorName}](${context.host}/${commit.authorName}?tab=activity)}}丨[{{shortHash}}](
   {{~#if @root.repository}}
     {{~#if @root.host}}
       {{~@root.host}}/

@@ -80,7 +80,7 @@ class Logger {
 
     getPrefix(color, label) {
         const chalkColor = this.options.bg
-            ? chalk[`bg${color[0].toUpperCase()}${color.slice(1)}`].white
+            ? chalk[`bg${color[0].toUpperCase()}${color.slice(1)}`].black
             : chalk[color];
         return chalkColor(label.padEnd(9));
     }

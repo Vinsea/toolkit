@@ -71,15 +71,15 @@ exports.logWithSpinner = (symbol, msg) => {
     spinner.start();
 };
 
-exports.stopSpinner = (persist) => {
+exports.stopSpinner = (text) => {
     if (!spinner.isSpinning) {
         return;
     }
 
-    if (lastMsg && persist !== false) {
+    if (lastMsg && text) {
         spinner.stopAndPersist({
             symbol: lastMsg.symbol,
-            text: lastMsg.text
+            text: text
         });
     } else {
         spinner.stop();
