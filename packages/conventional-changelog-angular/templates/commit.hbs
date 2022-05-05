@@ -1,12 +1,5 @@
-* {{committerDate}}丨{{#if scope}} **{{scope}}:**
-{{~/if}} {{#if subject}}
-  {{~subject}}
-{{~else}}
-  {{~header}}
-{{~/if}}
-
-{{~!-- commit link --}} {{#if @root.linkReferences~}}
-  ({{[@${commit.authorName}](${context.host}/${commit.authorName}?tab=activity)}}丨[{{shortHash}}](
+* {{committerDate}}丨{{#if @root.linkReferences~}}
+   [{{shortHash}}](
   {{~#if @root.repository}}
     {{~#if @root.host}}
       {{~@root.host}}/
@@ -18,20 +11,37 @@
   {{~else}}
     {{~@root.repoUrl}}
   {{~/if}}/
-  {{~@root.commit}}/{{hash}}))
+  {{~@root.commit}}/{{hash}}) - [@{{authorName}}](
+  {{~#if @root.repository}}
+    {{~#if @root.host}}
+      {{~@root.host}}/
+    {{~/if}}
+    {{~#if @root.owner}}
+      {{~@root.owner}}/
+    {{~/if}}
+    {{~@root.repository}}
+  {{~else}}
+    {{~@root.repoUrl}}
+  {{~/if}}/{{authorName}}?tab=activity) - 
 {{~else}}
   {{~shortHash}}
+{{~/if}}
+{{#if scope}} **{{scope}}:**
+{{~/if}} {{#if subject}}
+  {{~subject}}
+{{~else}}
+  {{~header}}
 {{~/if}}
 
 {{~!-- commit references --}}
 {{~#if references~}}
-  , closes
+  , 关闭
   {{~#each references}} {{#if @root.linkReferences~}}
     [
     {{~#if this.owner}}
       {{~this.owner}}/
     {{~/if}}
-    {{~this.repository}}#{{this.issue}}](
+    {{~this.repository}}issue#{{this.issue}}](
     {{~#if @root.repository}}
       {{~#if @root.host}}
         {{~@root.host}}/
