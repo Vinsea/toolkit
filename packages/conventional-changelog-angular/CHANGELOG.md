@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/Vinsea/toolkit/compare/v1.0.5...v1.0.6) (2022-05-06)
+
+
+### 🐛 Bug 修复
+
+* 2022-05-06丨[91aba33](https://github.com/Vinsea/toolkit/commit/91aba33ccf5ec313c091760b41511f1ea032784c) - [@Vinsea](https://github.com/Vinsea/toolkit/Vinsea?tab=activity) -    add missing file
+
+
+
+
+
 ## [1.0.5](https://github.com/Vinsea/toolkit/compare/v1.0.4...v1.0.5) (2022-05-05)
 
 
