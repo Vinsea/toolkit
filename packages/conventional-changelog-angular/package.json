@@ -20,6 +20,7 @@
   "files": [
     "conventional-changelog.js",
     "conventional-recommended-bump.js",
+    "git-raw-commit.js",
     "index.js",
     "parser-opts.js",
     "writer-opts.js",
