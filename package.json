@@ -3,7 +3,6 @@
   "name": "vinsea-toolkit-monorepo",
   "description": "my niubility toolkit",
   "author": "Vinsea",
-  "location": "C://workspace//vv//toolkit",
   "scripts": {
     "packages:bootstrap": "lerna bootstrap --hoist",
     "packages:changed": "lerna changed",
