@@ -1,3 +1,6 @@
+[![npm version](https://img.shields.io/npm/v/@vinsea/conventional-changelog-angular.svg)](https://www.npmjs.com/package/@vinsea/conventional-changelog-angular
+)
+
 # @vinsea/conventional-changelog-angular
 
 > [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [angular](https://github.com/angular/angular) preset

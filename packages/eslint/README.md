@@ -69,10 +69,6 @@ parserOptions: {
 
 如果你的项目中也有，可以删掉，统一用此插件的配置
 
-### vs code 配置
-
-查看 [vs code 统一配置](http://172.18.12.223:32155/project/#vscode-%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE)
-
 ### `.eslintignore`
 
 增加以下忽略配置
