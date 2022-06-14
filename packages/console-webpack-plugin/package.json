@@ -1,0 +1,34 @@
+{
+  "name": "@vinsea/console-webpack-plugin",
+  "version": "1.0.0",
+  "description": "print log after webpack is done",
+  "author": "Vinsea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinsea/toolkit.git",
+    "directory": "packages/console-webpack-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/Vinsea/toolkit/issues"
+  },
+  "homepage": "https://github.com/Vinsea/toolkit/blob/main/packages/console-webpack-plugin/README.md",
+  "keywords": [
+    "console",
+    "webpack plugin"
+  ],
+  "files": [
+    "rules"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
